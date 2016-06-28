@@ -1,0 +1,53 @@
+<?php
+
+  
+/*
+ * Implementation of hook_init().
+*/
+function mcpc_init(){
+}
+
+/**
+ * Implements hook_page_build().
+*/
+function mcpc_page_build(&$page){
+
+  $path = drupal_get_path('module', 'mcpc');
+
+  $page['page_bottom']['mcpc'] = array(
+		'#attached' => array(),
+  );
+	
+  $attached = &$page['page_bottom']['mcpc']['#attached'];
+  
+	$options = array('every_page' => TRUE);
+
+  $attached['css'][$path.'/css/mcpc_custom.css'] = $options;
+}
+
+/*
+ * Get the current node
+*/
+function mcpc_current_node(){
+
+  if(arg(0)=='node' && is_numeric(arg(1)))
+    return node_load(arg(1));
+}
+
+/**
+ * Implements hook_preprocess_html().
+*/
+function mcpc_preprocess_html(&$vars){
+
+  $node = mcpc_current_node();
+
+	/* BROWSER TITLE */
+	$vars['head_title'] = $node->field_browser_title['und'][0]['value'];
+
+	global $user;
+	
+	// Check to see if $user has the administrator role.
+  if(in_array('administrator', array_values($user->roles))){
+    $vars['classes_array'][] = 'administrator';
+  }
+}

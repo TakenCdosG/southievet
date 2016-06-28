@@ -1,0 +1,36 @@
+[20-Jan-2015 15:42:13 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home2/southbo4/public_html/sucuri-db-cleanup.php on line 126
+[20-Jan-2015 15:42:13 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home2/southbo4/public_html/sucuri-db-cleanup.php on line 132
+[05-Mar-2015 11:32:04] PHP Fatal error:  Call to undefined function entity_view_mode_prepare() in /home2/southbo4/public_html/modules/node/node.module on line 2664
+[05-Mar-2015 11:33:04] PHP Fatal error:  Call to undefined function entity_view_mode_prepare() in /home2/southbo4/public_html/modules/node/node.module on line 2664
+[05-Mar-2015 11:33:43] PHP Fatal error:  Call to undefined function entity_view_mode_prepare() in /home2/southbo4/public_html/modules/node/node.module on line 2664
+[05-Mar-2015 11:35:16] PHP Fatal error:  Call to undefined function entity_view_mode_prepare() in /home2/southbo4/public_html/modules/node/node.module on line 2664
+[05-Mar-2015 11:45:46] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:45:51] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:46:07] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:46:14] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:46:17] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:46:29] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:46:33] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:46:35] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:46:36] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:46:36] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:46:38] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:46:39] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:46:39] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:46:59] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:47:19] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:47:20] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:47:28] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:47:32] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:47:32] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:47:32] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:48:00] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:48:14] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:48:28] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:49:05] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:50:17] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:50:19] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:50:21] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:50:27] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:50:37] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8
+[05-Mar-2015 11:50:46] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home2/southbo4/public_html/sites/all/modules/gmap/gmap.module on line 8

@@ -1,0 +1,11 @@
+name = MCPC
+description = MCPC Helper Module.
+package = MCPC
+core = 7.x
+
+; Information added by drupal.org packaging script on 2012-09-18
+version = "7.x"
+core = "7.x"
+project = "mcpc"
+datestamp = "1347989995"
+

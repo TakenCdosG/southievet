@@ -1,0 +1,584 @@
+/*!
+ * Gridpak Beta CSS
+ *
+ * Generator - http://gridpak.com/
+ * Created by @erskinedesign
+ */
+ 
+/* Reusable column setup */
+.col,
+.col_hw_d, col_hw_t,
+.col_int_w,
+.col_staff_even, .col_staff_odd, .col_staff_three,
+.ne_col_mobile, .ne_col_land, .ne_col_desktop,
+.col_tes{
+	float:left;
+	border:0px solid rgba(0,0,0,0);
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	-moz-background-clip:padding-box !important;
+	-webkit-background-clip:padding-box !important;
+	background-clip:padding-box !important;
+}
+
+/**********************
+ *** STANDARD GRIDS ***
+**********************/
+
+	/* 4. 12 Column Grid 1001px to infinity 
+	----------------------------------------------------------------------------- 
+    
+    Span 1:    6.95833333333%
+    Span 2:    15.4166666667%
+    Span 3:    23.875%
+    Span 4:    32.3333333333%
+    Span 5:    40.7916666667%
+    Span 6:    49.25%
+    Span 7:    57.7083333333%
+    Span 8:    66.1666666667%
+    Span 9:    74.625%
+    Span 10:    83.0833333333%
+    Span 11:    91.5416666667%
+    Span 12:    100%
+    
+	----------------------------------------------------------------------------- */
+
+	@media screen and (min-width: 1001px){
+	
+		.col{
+			margin-left:1.5%;
+			padding:0 1%;
+		}
+  
+		.row .col:first-child{
+			margin-left:0;
+		}
+
+		.span_1,
+		.desktop_1{
+			width:6.95833333333%;
+		}
+		.span_2,
+		.desktop_2{
+			width:15.4166666667%;
+		}
+		.span_3,
+		.desktop_3{
+			width:23.875%;
+		}
+		.span_4,
+		.desktop_4{
+			width:32.3333333333%;
+		}
+		.span_5,
+		.desktop_5{
+			width:40.7916666667%;
+		}
+		.span_6,
+		.desktop_6{
+			width:49.25%;
+		}
+		.span_7,
+		.desktop_7{
+			width:57.7083333333%;
+		}
+		.span_8,
+		.desktop_8{
+			width:66.1666666667%;
+		}
+		.span_9,
+		.desktop_9{
+			width:74.625%;
+		}
+		.span_10,
+		.desktop_10{
+			width:83.0833333333%;
+		}
+		.span_11,
+		.desktop_11{
+			width:91.5416666667%;
+		}
+		.span_12,
+		.desktop_12{
+			margin-left:0;
+			width:100%;
+		}
+
+	}
+
+	/* 3. 8 Column Grid 481px - 1000px 
+	-----------------------------------------------------------------------------
+
+		Span 1:    10.75%
+    Span 2:    25.5%
+    Span 3:    36.25%
+    Span 4:    49.0%
+    Span 5:    61.75%
+    Span 6:    74.5%
+    Span 7:    87.25%
+    Span 8:    100%
+    
+	----------------------------------------------------------------------------- */
+
+	@media screen and (min-width: 481px) and (max-width: 1000px){
+
+		.col{
+			margin-left:2%;
+			padding:0 1.5%;
+		}
+
+		.row .col:first-child{
+			margin-left:0;
+		}
+
+		.span_1,
+		.tablet_1{
+			width:10.75%;
+		}
+		.span_2,
+		.tablet_2{
+			width:25.5%;
+		}
+		.span_3,
+		.tablet_3{
+			width:36.25%;
+		}
+		.span_4,
+		.tablet_4{
+			width:49.0%;
+		}
+		.span_5,
+		.tablet_5{
+			width:61.75%;
+		}
+		.span_6,
+		.tablet_6{
+			width:74.5%;
+		}
+		.span_7,
+		.tablet_7{
+			width:87.25%;
+		}
+		.span_8,
+		.tablet_8{
+			margin-left:0;
+			width:100%;
+		}
+
+  }
+
+	/* 1. 4 Column Grid 0px - 480px
+	----------------------------------------------------------------------------- 
+    
+		Span 1:    22.375%
+		Span 2:    48.25%
+		Span 3:    74.125%
+		Span 4:    100%
+    
+	----------------------------------------------------------------------------- */
+
+	@media screen and (min-width: 0px) and (max-width: 480px){
+
+		.col{
+			margin-left:3.5%;
+			padding:0 2%;
+		}
+
+		.row .col:first-child {
+			margin-left:0;
+		}
+
+		.span_1,
+		.mobile_1{
+			width:22.375%;
+		}
+		.span_2,
+		.mobile_2{
+			width:48.25%;
+		}
+		.span_3,
+		.mobile_3{
+			width:74.125%;
+		}
+		.span_4,
+		.mobile_4{
+			margin-left:0;
+			width:100%;
+		}
+
+	}
+	
+/********************
+ *** CUSTOM GRIDS ***
+********************/
+
+	/** MAIN MENU **/
+	
+	/* 1. 4 Column Grid 0px - 592px MOBILE MENU
+	----------------------------------------------------------------------------- 
+    
+		Span 1:    22.375%
+		Span 2:    48.25%
+		Span 3:    74.125%
+		Span 4:    100%
+    
+	----------------------------------------------------------------------------- */
+
+	@media screen and (min-width: 0px) and (max-width: 592px){
+
+		.span_2,
+		.menu_mobile_2{
+			width:50%;
+		}
+		.span_4,
+		.menu_mobile_4{
+			margin-left:0;
+			width:100%;
+		}
+
+	}
+
+	/* 3. 8 Column Grid 593px - 690px TABLET PORTRAIT AND SMARTPHONE LANDSCAPE MENU
+	-----------------------------------------------------------------------------
+
+		Span 1:    10.75%
+    Span 2:    25.5%
+    Span 3:    36.25%
+    Span 4:    49.0%
+    Span 5:    61.75%
+    Span 6:    74.5%
+    Span 7:    87.25%
+    Span 8:    100%
+    
+	----------------------------------------------------------------------------- */
+
+	@media screen and (min-width: 593px) and (max-width: 823px){
+
+		.span_2,
+		.portrait_t_2{
+			width:25.5%;
+		}
+		.span_6,
+		.portrait_t_6{
+			width:74.5%;
+		}
+
+	}
+
+	/** HOME WIDGETS **/
+
+	/* 4. 12 Column Grid 691px to infinity DESKTOP HOME WIDGETS
+	----------------------------------------------------------------------------- 
+    
+    Span 1:    6.95833333333%
+    Span 2:    15.4166666667%
+    Span 3:    23.875%
+    Span 4:    32.3333333333%
+    Span 5:    40.7916666667%
+    Span 6:    49.25%
+    Span 7:    57.7083333333%
+    Span 8:    66.1666666667%
+    Span 9:    74.625%
+    Span 10:    83.0833333333%
+    Span 11:    91.5416666667%
+    Span 12:    100%
+    
+	----------------------------------------------------------------------------- */
+
+	@media screen and (min-width: 691px){
+	
+		.col_hw_d{
+			margin-left:1.5%;
+			padding:0 1%;
+		}
+  
+		.row .col_hw_d:first-child{
+			margin-left:0;
+		}
+
+		.span_1,
+		.home_widget_d_1{
+			width:4.95833333333%;
+		}
+		.span_5,
+		.home_widget_d_5{
+			width:40.7916666667%;
+		}
+		.span_6,
+		.home_widget_d_6{
+			width:51.25%;
+		}
+
+	}
+
+	/* 3. 8 Column Grid 481px - 690px TABLET PORTRAIT AND SMARTPHONE LANDSCAPE HOME WIDGETS
+	-----------------------------------------------------------------------------
+
+		Span 1:    10.75%
+    Span 2:    25.5%
+    Span 3:    36.25%
+    Span 4:    49.0%
+    Span 5:    61.75%
+    Span 6:    74.5%
+    Span 7:    87.25%
+    Span 8:    100%
+    
+	----------------------------------------------------------------------------- */
+
+	@media screen and (min-width: 481px) and (max-width: 690px){
+
+		.col_hw_t{
+			margin-left:2%;
+			padding:0 1.5%;
+		}
+
+		.row .col_hw_t:first-child{
+			margin-left:0;
+		}
+	
+		.span_4,
+		.home_widget_t_4{
+			width:49.0%;
+		}
+		
+  }
+	
+	/** INTERNAL IMAGE TEXT **/
+	
+	/* 1. 4 Column Grid 0px - 480px INTERNAL IMAGE TEXT
+	----------------------------------------------------------------------------- 
+    
+		Span 1:    22.375%
+		Span 2:    48.25%
+		Span 3:    74.125%
+		Span 4:    100%
+    
+	----------------------------------------------------------------------------- */
+
+	@media screen and (min-width: 0px) and (max-width: 480px){
+
+		.row .col:first-child {
+			margin-left:0;
+		}    
+		
+		.span_4,
+		.int_mobile_4{
+			margin-left:0;
+			width:94.5%;
+		}
+
+	}
+	
+	/** INTERNAL WIDGETS **/
+	
+	/* 1. 4 Column Grid 0px - 480px INTERNAL WIDGETS
+	----------------------------------------------------------------------------- 
+    
+		Span 1:    22.375%
+		Span 2:    48.25%
+		Span 3:    74.125%
+		Span 4:    100%
+    
+	----------------------------------------------------------------------------- */
+
+	@media screen and (min-width: 0px) and (max-width: 480px){
+
+		.col_int_w{
+			margin-left:0%;
+			padding:0 4%;
+		}
+
+		.row .col_int_w:first-child {
+			margin-left:0;
+		}    
+		
+		.span_4,
+		.int_w_mobile_4{
+			margin-left:0;
+			width:100%;
+		}
+
+	}
+	
+	/* 2. 3 Column Grid 481px - infinity INTERNAL WIDGETS
+	----------------------------------------------------------------------------- 
+    
+    Span 1:    32.6666666667%
+    Span 2:    66.3333333333%
+    Span 3:    100%
+    
+	----------------------------------------------------------------------------- */
+
+	@media screen and (min-width: 481px){
+
+		.col_int_w{
+			margin-left:1%;
+			padding:0 1.5%;
+		}
+
+		.row .col_int_w:first-child{
+			margin-left:0;
+		}
+  
+		.span_1,
+		.int_widget_1{
+			width:32.6666666667%;
+		}
+
+	}
+	
+	/** NEWS AND EVENTS **/
+
+	/* 1. 1 Column Grid 0px - 480px MOBILE NEWS AND EVENTS 
+	----------------------------------------------------------------------------- 
+    
+		Span 1:    100%
+    
+	----------------------------------------------------------------------------- */
+
+	@media screen and (min-width: 0px) and (max-width: 480px){
+ 
+		.ne_col_mobile{
+			margin-left:0%;
+			padding:0 4%;
+		}
+
+		.row .ne_col_mobile:first-child{
+			margin-left:0;
+		}
+
+		.span_1,
+		.ne_mobile_1{
+			margin-left:0;
+			width:100%;
+		}
+
+	}
+
+	/* 2. 8 Column Grid 481px - 690px TABLET PORTRAIT AND SMARTPHONE LANDSCAPE NEWS AND EVENTS
+	----------------------------------------------------------------------------- 
+    
+    Span 1:    12.5%
+    Span 2:    25.0%
+    Span 3:    37.5%
+    Span 4:    50.0%
+    Span 5:    62.5%
+    Span 6:    75.0%
+    Span 7:    87.5%
+    Span 8:    100%
+    
+	----------------------------------------------------------------------------- */
+
+	@media screen and (min-width: 481px) and (max-width: 690px){
+
+		.ne_col_land{
+			margin-left:0%;
+			padding:0 1.5%;
+		}
+ 
+		.row .ne_col_land:first-child{
+			margin-left:0;
+		}
+
+		.span_4,
+		.ne_land_4{
+			width:100%;
+		}
+
+	}
+
+	/* 4. 10 Column Grid 691px - Infinity DESKTOP NEWS AND EVENTS 
+	----------------------------------------------------------------------------- 
+    
+    Span 1:    10.0%
+    Span 2:    20.0%
+    Span 3:    30.0%
+    Span 4:    40.0%
+    Span 5:    50.0%
+    Span 6:    60.0%
+    Span 7:    70.0%
+    Span 8:    80.0%
+    Span 9:    90.0%
+    Span 10:    100%
+    
+	----------------------------------------------------------------------------- */
+
+	@media screen and (min-width: 691px){
+  
+		.ne_col_desktop{
+			margin-left:0%;
+			padding:0 1.5%;
+		}
+
+		.row .ne_col_desktop:first-child{
+			margin-left:0;
+		}
+
+		.span_5,
+		.ne_desktop_5{
+			width:100%;
+		}
+
+	}
+
+	/** STAFF **/
+
+	/* 4. 1 Column Grid 481px to infinity STAFF
+	----------------------------------------------------------------------------- 
+    
+    Span 1:    32%
+
+	----------------------------------------------------------------------------- */
+
+	@media screen and (min-width: 481px){
+	
+		.col_staff_even{
+			margin-right:2%;
+			margin-left:2%;
+			padding:0;
+		}
+		.col_staff_odd{
+			margin-left:0;
+			padding:0;
+		}
+		.col_staff_three{
+			margin-left:0;
+			padding:0;
+			clear:left;
+		}
+
+		.span_1,
+		.staff_c{
+			width:32%;
+		}
+
+	}
+
+	/** TESTIMONIALS **/
+
+	/* 4. 2 Column Grid 0px - 480px TESTIMONIALS
+	----------------------------------------------------------------------------- 
+    
+    Span 1:    16%
+    Span 2:    68%
+
+	----------------------------------------------------------------------------- */
+
+	@media screen and (min-width: 0px) and (max-width: 480px){
+
+		.col_tes{
+			padding:0 2%;
+			margin-left:0;
+		}
+
+		.span_1,
+		.mob_tes_1{
+			width:16%;
+		}
+		.span_1,
+		.mob_tes_2{
+			width:68%;
+		}
+
+	}

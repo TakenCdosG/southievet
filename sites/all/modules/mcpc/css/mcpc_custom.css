@@ -1,0 +1,28 @@
+/***********
+ *** CMS *** 
+***********/
+html body.admin-menu{
+	margin-top:0 !important;
+}
+body.administrator ul#admin-menu-menu > li:first-child + li + li{
+	display:none;
+}
+html body.administrator ul#admin-menu-icon > li ul{
+	display:none !important;
+}
+label[for=edit-field-on-off-und-none],
+label[for=edit-field-on-off-2-und-none],
+input#edit-field-on-off-und-none,
+input#edit-field-on-off-2-und-none{
+	display:none;
+}
+
+/*****************
+ *** DASHBOARD ***
+*****************/
+html div#dashboard div#block-imageblock-1{
+	border:none;
+}
+	html div#dashboard div#block-imageblock-1 h2{
+		display:none;
+	}
