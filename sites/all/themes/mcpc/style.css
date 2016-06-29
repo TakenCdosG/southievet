@@ -2355,10 +2355,19 @@ body.toolbar #page_top{
 	font-size: 18px;
 	font-family: "ff-meta-web-pro"; 
 }
+.one_fourth{
+	width:33%;
+	float:left;
+}
+
 @media screen and (max-width: 950px){
 	.appoint{
 		width:100%;
 		margin-bottom: 30px;
+	}
+	.one_fourth{
+		width: 100%;
+		margin-bottom: 20px;
 	}
 		
 }
