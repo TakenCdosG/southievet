@@ -2340,3 +2340,25 @@ body.toolbar #page_top{
 		}
 		
 	}
+
+.number-label{
+	font-size: 40px;
+	font-family: "ff-meta-web-pro"; 
+	margin-bottom: 15px;
+	display: block;
+}
+.appoint{
+	margin-left: 0; 
+	padding-left: 0;
+}
+.number-number{
+	font-size: 30px;
+	font-family: "ff-meta-web-pro"; 
+}
+@media screen and (max-width: 950px){
+	.appoint{
+		width:100%;
+		margin-bottom: 30px;
+	}
+		
+}

@@ -30,5 +30,7 @@
 	</script>
 	<script type="text/javascript" src="//use.typekit.net/byk0ikq.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<script src="https://use.typekit.net/tno0gwa.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 </body>
 </html>
